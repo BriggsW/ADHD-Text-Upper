@@ -1,0 +1,3 @@
+/Users/Ethelnol/Documents/CLionProjects/ADHD Text Upper/cmake-build-debug/CMakeFiles/ADHD_Text_Upper.dir
+/Users/Ethelnol/Documents/CLionProjects/ADHD Text Upper/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Ethelnol/Documents/CLionProjects/ADHD Text Upper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
