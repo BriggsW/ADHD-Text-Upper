@@ -14,11 +14,17 @@ int main() {
     cin.clear();
 
     inFS.open(fileName+".txt");
+
+    if ( !(inFS.is_open()) ){
+        cout<<"Could not find "<<fileName<<".txt";
+        return 1;
+    }
+
     fileName.append(" Upped");
     outFS.open(fileName+".txt");
 
     if ( !(inFS.is_open()) ){
-        cout<<"Could not open file";
+        cout<<"Could not create/open "<<fileName<<".txt";
         return 1;
     }
 

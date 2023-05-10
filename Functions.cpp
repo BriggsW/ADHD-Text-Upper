@@ -17,8 +17,8 @@ string UpLine(const string& line){
             word.push_back(line[i]);
         }
         else{
-            int overHalf=(word.length()%2);
-            for (int j=0;j<(overHalf+word.length()/2);j++){
+            int overHalf=(word.length()/2)+(word.length()%2);
+            for (int j=0;j<overHalf;j++){
                 if ( isalpha(word[j]) && word[j]>96){
                     word[j]-=32;
                 }
